@@ -109,6 +109,5 @@ const images = [
 
 const selectedImage = ref(images[0]);
 
-// ✅ Compute current index based on selectedImage
 const currentIndex = computed(() => images.indexOf(selectedImage.value));
 </script>
