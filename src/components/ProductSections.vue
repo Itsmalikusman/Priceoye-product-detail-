@@ -32,7 +32,7 @@ import Specifications from "./Sections/Specifications.vue"
 import BoxContents from "./Sections/BoxContents.vue"
 import Accessories from "./Sections/Accessories.vue"
 import FAQs from "./Sections/FAQs.vue"
-import Primum from "./Sections/primum.vue"
+import Primum from "./Sections/Primum.vue"
 
 const sections = [
   { id: "similar-products", title: "Similar Products" },
