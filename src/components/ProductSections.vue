@@ -26,13 +26,13 @@
 <script setup>
 import "../assets/product.scss"
 
-import SimilarProducts from "./sections/SimilarProducts.vue"
-import Highlights from "./sections/Highlights.vue"
-import Specifications from "./sections/Specifications.vue"
-import BoxContents from "./sections/BoxContents.vue"
-import Accessories from "./sections/Accessories.vue"
-import FAQs from "./sections/FAQs.vue"
-import Primum from "./sections/primum.vue"
+import SimilarProducts from "./Sections/SimilarProducts.vue"
+import Highlights from "./Sections/Highlights.vue"
+import Specifications from "./Sections/Specifications.vue"
+import BoxContents from "./Sections/BoxContents.vue"
+import Accessories from "./Sections/Accessories.vue"
+import FAQs from "./Sections/FAQs.vue"
+import Primum from "./Sections/primum.vue"
 
 const sections = [
   { id: "similar-products", title: "Similar Products" },
@@ -44,6 +44,6 @@ const sections = [
 
 
 
-  
+
 ]
 </script>
