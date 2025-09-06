@@ -238,14 +238,16 @@ h1,
       .add-to-cart {
         background: $warning;
         color: #fff;
-        border: none;
+        border: 2px solid $warning;
         padding: 10px 20px;
         border-radius: 8px;
         cursor: pointer;
         font-weight: bold;
 
+
         &:hover {
-          background: darken($warning, 10%);
+          background: transparent;
+          color: $warning;
         }
       }
 
@@ -532,9 +534,11 @@ html {
 
   .add-to-cart {
     background-color: $warning;
+    border: 2px solid $warning;
 
     &:hover {
-      background-color: darken($warning, 5%);
+      background-color: transparent;
+      color: $warning;
     }
   }
 
