@@ -114,6 +114,7 @@ h1,
   @media (max-width: 768px) {
     .main-image img{
       width: 100%;
+      height: auto;
     }
   }
   .main-image:hover img{
@@ -614,6 +615,9 @@ html {
     text-align: center;
     transition: 0.3s;
     width: 285px;
+    @media (max-width: 580px) {
+      width: 100%;
+    }
 
     &:hover {
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -889,6 +893,10 @@ html {
 .accessories-video {
   flex: 1 1 45%;
   max-width: 500px;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-block: 10px;
+  }
 
   iframe {
     width: 100%;
