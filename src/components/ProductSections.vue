@@ -41,5 +41,9 @@ const sections = [
   { id: "box", title: "What’s In The Box" },
   { id: "accessories", title: "Connect Your Accessories" },
   { id: "faqs", title: "FAQs" }
+
+
+
+  
 ]
 </script>
